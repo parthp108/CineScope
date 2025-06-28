@@ -1,53 +1,36 @@
-<h1 align="center">CineScope</h1>
-CineScope is a React-based movie website that allows users to search for movies by title, sort them by genre, view trending and upcoming movies, and bookmark their favorite movies. The website is designed to be user-friendly and visually appealing.
-<hr/>
+# CineScope 🎬
 
-<hr/>
+CineScope is a modern, responsive movie discovery web application built using **ReactJS**, powered by **TMDB API** for real-time movie data, and **Firebase** for Google Authentication. Users can explore trending and upcoming movies, search by title, view details, and bookmark favorites.
 
-# Features 
+### 🌐 Live Demo
+➡️ [https://cinescope108.netlify.app](https://cinescope108.netlify.app)
 
-- Search and watch movies: users can search for movies by title and can watch them easily
-- Genre-wise display: movies can be sorted by genre
-- Trending Movies: displays a section for trending movies
-- Upcoming movies: displays a section for upcoming movies
-- Movie Details: users can view detailed information about each movie
-- Bookmark Movies: users can bookmark their favorite movies for later viewing
-- Google Authentication: users can sign in using their Google account
+---
 
-<hr/>
+## 🚀 Features
 
-# Technology
+- 🔍 **Search & Watch**: Find movies by title and view detailed info
+- 🎞️ **Genre Sorting**: Filter movies by genres
+- 🔥 **Trending Section**: Explore trending movies
+- 🎬 **Upcoming Section**: Preview upcoming releases
+- 💾 **Bookmarks**: Save and manage your favorite movies
+- 🔐 **Google Login**: Secure sign-in with Firebase Auth
+- ⚡ **Fast & Smooth**: Built with React, Tailwind, Framer Motion
 
-CineScope is built using the following technologies:
+---
 
-- ReactJS
-- TMDB API
-- Firebase Google Authentication
-- Framer Motion
+## 🛠️ Tech Stack
 
-<hr/>
+- **Frontend**: ReactJS, TailwindCSS, Framer Motion
+- **Backend/API**: [TMDB API](https://www.themoviedb.org/documentation/api)
+- **Authentication**: Firebase Google Auth
+- **Deployment**: Netlify
 
-# How to Run the Website on Your System
+---
 
-## Step 1: Download and Extract the Code
+## ⚙️ Installation Guide
 
-Firstly, download the entire website code and extract the ZIP file to a folder on your local system.
-
-
-## Step 2: Run the Website
-
-Open your code editor (such as VS Code) and navigate to the project directory. Then, open a terminal and run the following command:
-
+### 1️⃣ Clone the repository
 ```bash
-npm run dev
-```
-This will start the application. Open a web browser and navigate to http://localhost:3000 to access the website.
-
-Note: If the .env file is not working, add all the API keys and configuration manually.
-
-<hr/>
-
-
-
-# Contribution
-Contributions are always welcome, open a **Pull Request** and help me improve my project.
+git clone https://github.com/parthp108/CineScope.git
+cd CineScope
