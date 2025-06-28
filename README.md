@@ -30,7 +30,54 @@ CineScope is a modern, responsive movie discovery web application built using **
 
 ## ⚙️ Installation Guide
 
-### 1️⃣ Clone the repository
+To run CineScope locally, follow these steps:
+
+### 📌 Requirements
+
+- Node.js installed
+- A code editor like VS Code
+
+---
+
+### 🛠️ One-Time Setup (Copy-Paste Everything Below in Order)
+
 ```bash
-git clone https://github.com/parthp108/CineScope.git
+# Step 1: Download the repository (if not already)
+# If ZIP: extract manually
+# If using Git:
+git clone https://github.com/your-username/CineScope.git
 cd CineScope
+
+# Step 2: Install all dependencies
+npm install
+
+# Step 3: Create a .env file in the root directory
+echo "VITE_API_KEY=your_tmdb_api_key
+VITE_FIREBASE_API_KEY=your_firebase_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+VITE_FIREBASE_PROJECTID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
+VITE_FIREBASE_MESAGING_SENDER_ID=your_sender_id
+VITE_FIREBASE_APP_ID=your_app_id" > .env
+
+# Step 4: Start the development server
+npm run dev
+```
+
+> 🔁 Replace the values like `your_tmdb_api_key`, `your_firebase_api_key`, etc., with actual credentials from [TMDB](https://developer.themoviedb.org/) and [Firebase Console](https://console.firebase.google.com/).
+
+---
+
+### ✅ After Running
+
+Once the server starts, open your browser and visit:
+
+```
+http://localhost:5173/
+```
+
+Or click the link shown in the terminal after `npm run dev`.
+
+---
+
+
