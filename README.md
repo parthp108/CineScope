@@ -77,5 +77,15 @@ CineScope/
 ├── tailwind.config.js
 ├── vite.config.js
 └── package.json
+```
 🛡️ License
-This project is for learning and showcasing purposes. Use freely with credit.
+This project is open for educational and portfolio use. Attribution appreciated.
+
+
+
+
+
+
+
+
+
