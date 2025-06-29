@@ -64,7 +64,10 @@ Firebase Console
 # Step 4: Start development server
 npm run dev
 Visit: 👉 http://localhost:5173
+```
+
 Folder Structure (Quick Glance)
+```
 CineScope/
 ├── public/
 ├── src/
