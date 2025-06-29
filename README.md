@@ -42,10 +42,12 @@
 ```bash
 # Step 1: Clone the repository or extract ZIP
 cd CineScope
-
+```
+```
 # Step 2: Install dependencies
 npm install
-
+```
+```
 # Step 3: Create .env file in root with your credentials
 VITE_API_KEY=your_tmdb_api_key
 VITE_FIREBASE_API_KEY=your_firebase_api_key
@@ -54,13 +56,12 @@ VITE_FIREBASE_PROJECTID=your_project_id
 VITE_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
 VITE_FIREBASE_MESAGING_SENDER_ID=your_sender_id
 VITE_FIREBASE_APP_ID=your_app_id
-
+```
 🔁 Replace your_... values using:
 
 TMDB Developer Portal
-
 Firebase Console
-
+```
 # Step 4: Start development server
 npm run dev
 Visit: 👉 http://localhost:5173
