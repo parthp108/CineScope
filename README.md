@@ -60,6 +60,7 @@ VITE_FIREBASE_APP_ID=your_app_id
 🔁 Replace your_... values using:
 
 TMDB Developer Portal
+
 Firebase Console
 ```
 # Step 4: Start development server
