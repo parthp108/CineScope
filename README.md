@@ -1,60 +1,52 @@
-# CineScope 🎬
+# 🎬 CineScope
 
-CineScope is a modern, responsive movie discovery web application built using **ReactJS**, powered by **TMDB API** for real-time movie data, and **Firebase** for Google Authentication. Users can explore trending and upcoming movies, search by title, view details, and bookmark favorites.
+**CineScope** is a sleek and responsive movie discovery web application built with **ReactJS**. It integrates **TMDB API** for real-time movie data and uses **Firebase** for secure Google authentication. Users can browse trending and upcoming movies, search by title, view detailed info, and bookmark favorites — all in a smooth, animated UI.
 
-### 🌐 Live Demo
-➡️ [https://cinescope108.netlify.app](https://cinescope108.netlify.app)
-
----
-
-## 🚀 Features
-
-- 🔍 **Search & Watch**: Find movies by title and view detailed info
-- 🎞️ **Genre Sorting**: Filter movies by genres
-- 🔥 **Trending Section**: Explore trending movies
-- 🎬 **Upcoming Section**: Preview upcoming releases
-- 💾 **Bookmarks**: Save and manage your favorite movies
-- 🔐 **Google Login**: Secure sign-in with Firebase Auth
-- ⚡ **Fast & Smooth**: Built with React, Tailwind, Framer Motion
+> 🚀 Live Demo: [https://cinescope108.netlify.app](https://cinescope108.netlify.app)  
+> 🧑‍💻 Built by: [@parthp108](https://github.com/parthp108)
 
 ---
 
-## 🛠️ Tech Stack
+## 🔥 Features
 
-- **Frontend**: ReactJS, TailwindCSS, Framer Motion
-- **Backend/API**: [TMDB API](https://www.themoviedb.org/documentation/api)
-- **Authentication**: Firebase Google Auth
-- **Deployment**: Netlify
+- 🎞️ Browse Trending & Upcoming Movies
+- 🔍 Search Movies by Title
+- 🎯 Filter by Genres
+- 📑 View Movie Details (Poster, Rating, Overview, etc.)
+- 💾 Bookmark & Manage Favorites
+- 🔐 Google Sign-In via Firebase
+- ⚡ Smooth Animations (Framer Motion)
+- 🖥️ Mobile-Responsive & Dark UI (TailwindCSS)
 
 ---
 
-## ⚙️ Installation Guide
+## ⚙️ Tech Stack
 
-To run CineScope locally, follow these steps:
+| Frontend   | API           | Auth      | Hosting   |
+|------------|----------------|-----------|------------|
+| ReactJS (Vite) | TMDB API       | Firebase  | Netlify    |
+| TailwindCSS    | Axios           | Firebase Auth |        |
+| Framer Motion  |                |           |            |
 
-### 📌 Requirements
+---
 
-- Node.js installed
+## 🧑‍💻 Getting Started (Local Setup)
+
+### 🔧 Prerequisites
+
+- Node.js ≥ 14.x
 - A code editor like VS Code
 
----
-
-### 🛠️ One-Time Setup (Everything Below in Order)
+### 📦 Installation Steps
 
 ```bash
-# Step 1: Download the repository 
-# ZIP: extract manually
-
+# Step 1: Clone the repository or extract ZIP
 cd CineScope
 
-# Step 2: Install all dependencies
+# Step 2: Install dependencies
 npm install
 
-# Step 3: Create a .env file in the root directory (in code editor like VS Code)
-# Paste the following content:
-```
-
-```
+# Step 3: Create .env file in root with your credentials
 VITE_API_KEY=your_tmdb_api_key
 VITE_FIREBASE_API_KEY=your_firebase_api_key
 VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
@@ -62,27 +54,28 @@ VITE_FIREBASE_PROJECTID=your_project_id
 VITE_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
 VITE_FIREBASE_MESAGING_SENDER_ID=your_sender_id
 VITE_FIREBASE_APP_ID=your_app_id
-```
 
-> 🔁 Replace the values like `your_tmdb_api_key`, `your_firebase_api_key`, etc., with actual credentials from [TMDB](https://developer.themoviedb.org/) and [Firebase Console](https://console.firebase.google.com)
+🔁 Replace your_... values using:
 
-```bash
-# Step 4: Start the development server
+TMDB Developer Portal
+
+Firebase Console
+
+# Step 4: Start development server
 npm run dev
-```
-
----
-
-### ✅ After Running
-
-Once the server starts, open your browser and visit:
-
-```
-http://localhost:5173/
-```
-
-Or click the link shown in the terminal after `npm run dev`. (You can also use `o` in terminal to open it directly)
-
----
-
-
+Visit: 👉 http://localhost:5173
+Folder Structure (Quick Glance)
+CineScope/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── context/
+│   ├── App.jsx
+│   └── main.jsx
+├── .env
+├── tailwind.config.js
+├── vite.config.js
+└── package.json
+🛡️ License
+This project is for learning and showcasing purposes. Use freely with credit.
